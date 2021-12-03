@@ -1,0 +1,74 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #20232a;
+    padding: 22px 80px;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+}
+.logoHeader{
+    display: flex;
+    align-items: center;
+    color: #56ccf2;
+    
+}
+.logoHeader img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.menuHeader nav{
+    display: flex;
+    
+}
+.menuHeader ul li{
+    list-style: none;
+    display: inline;
+    margin: 0px 16px;
+}
+.menuHeader a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menuHeader a:hover{
+    color: #56ccf2;
+}
+.containerInputSearch{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.containerInputSearch svg{
+    color: white;
+    margin-right: 10px;
+}
+.inputSearch{
+    border: none;
+    background-color: transparent;
+    font-size: 19px;
+    outline: none;
+}
+.inputSearch::placeholder{
+    color: #828282;
+}
+.versionHeader{
+    padding-right: 50px;
+}
+.versionHeader a{
+    text-decoration: none;
+    color: #FFF;
+    margin: 0px 10px;
+    font-size: 15px;
+}
+.versionHeader a:hover{
+    color: #56ccf2;
+}
+.languages svg{
+    color: white;
+}
+.arrow-up svg{
+    color: #bbbbbb;
+    width: 11px;
+}

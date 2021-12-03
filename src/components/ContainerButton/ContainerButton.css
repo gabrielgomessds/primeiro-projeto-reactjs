@@ -1,0 +1,30 @@
+.bannerButtons{
+    margin-top: 20px;
+    padding: 35px 0px ;
+    width: 100%;
+    background: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerButtons button{
+    padding: 15px 30px;
+    background: #61dafb;
+    color: #000;
+    border: 0;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.bannerButtons button:hover{
+    background: #FFF;
+    color: #000;
+}
+.bannerButtons a{
+    color: #61dafb;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.bannerButtons a:hover{
+    color: #FFF;
+}

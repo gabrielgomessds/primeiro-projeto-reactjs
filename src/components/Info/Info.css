@@ -1,0 +1,33 @@
+.infoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-right: 30px;
+    padding-left: 50px;
+}
+.info{
+    width: 410px;
+    margin-top: 100px;
+    padding: 0px 20px;
+}
+.titleInfo{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #828282;
+}
+.textInfo{
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.textInfo a{
+    background: #eafafe;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #eaebef;
+}
+.textInfo a:hover{
+    background: #61dafb;
+    border-bottom: 1px solid #000;
+}

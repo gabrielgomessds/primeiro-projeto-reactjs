@@ -1,0 +1,32 @@
+.tips{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+
+}
+.tips hr{
+    border: 1px solid #eaebef;
+    width: 70%;
+    margin-bottom: 70px;
+}
+.infoTips{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 80px;
+    margin-bottom: 100px;
+}
+.textTips{
+    margin-right: 40px;
+}
+.titleTips{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 250px;
+}
+.textTips p{
+    font-size: 17px;
+    line-height: 35px;
+}
